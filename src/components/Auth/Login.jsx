@@ -15,9 +15,9 @@ const Login = ({handleLogin})=>{
     }
 
     return (
-        <div className='flex h-screen w-screen flex-col items-center justify-center'>
-            <h2 className='text-6xl font-semibold text-white mb-20 text-center'>Stud-Manage</h2>
-            <div className='border-2 border-emerald-600 p-20 rounded-xl'>
+        <div className='flex h-screen w-screen flex-col items-center justify-center mt-10'>
+            <h2 className='text-6xl font-semibold text-white  text-center '>Stud-Manage</h2>
+            <div className='border-2 border-emerald-600 p-20 rounded-xl mt-10'>
             <h2 className='text-3xl font-semibold text-emerald-700 mb-6 text-center'>Login to Your Account</h2>
                 <form className='flex flex-col items-center justify-center' onSubmit={(e)=>{submitHandler(e)}}>
                     <input 
@@ -46,7 +46,25 @@ const Login = ({handleLogin})=>{
                 </form>
             </div>
 
+
+        <div className="mt-6 p-4  rounded-lg shadow-md">
+            <h3 className="text-lg font-semibold mb-2">🔐 Dummy Credentials</h3>
+    
+            <div className="mb-3">
+                <p className="font-medium text-sm text-gray-800">👩‍🏫 Faculty</p>
+                <p className="text-sm text-gray-600">Email: <span className="font-mono">faculty@example.com</span></p>
+                <p className="text-sm text-gray-600">Password: <span className="font-mono">123</span></p>
+            </div>
+
+            <div>
+                <p className="font-medium text-sm text-gray-800">👩‍🎓 Students</p>
+                <p className="text-sm text-gray-600">Email: <span className="font-mono">student1@example.com</span></p>
+                <p className="text-sm text-gray-600">Password: <span className="font-mono">123</span></p>
+                <p className="text-sm mt-1 text-gray-500 italic">* Use student2@example.com, student3@example.com... for more</p>
+            </div>
         </div>
+
+    </div>
     )
 }
 
