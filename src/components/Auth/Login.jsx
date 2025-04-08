@@ -51,16 +51,16 @@ const Login = ({handleLogin})=>{
             <h3 className="text-lg font-semibold mb-2">🔐 Dummy Credentials</h3>
     
             <div className="mb-3">
-                <p className="font-medium text-sm text-gray-800">👩‍🏫 Faculty</p>
-                <p className="text-sm text-gray-600">Email: <span className="font-mono">faculty@example.com</span></p>
-                <p className="text-sm text-gray-600">Password: <span className="font-mono">123</span></p>
+                <p className="font-medium text-sm ">👩‍🏫 Faculty</p>
+                <p className="text-sm text-gray-400">Email: <span className="font-mono text-gray-400">faculty@example.com</span></p>
+                <p className="text-sm text-gray-400">Password: <span className="font-mono">123</span></p>
             </div>
 
             <div>
-                <p className="font-medium text-sm text-gray-800">👩‍🎓 Students</p>
-                <p className="text-sm text-gray-600">Email: <span className="font-mono">student1@example.com</span></p>
-                <p className="text-sm text-gray-600">Password: <span className="font-mono">123</span></p>
-                <p className="text-sm mt-1 text-gray-500 italic">* Use student2@example.com, student3@example.com... for more</p>
+                <p className="font-medium text-sm ">👩‍🎓 Students</p>
+                <p className="text-sm text-gray-400">Email: <span className="font-mono">student1@example.com</span></p>
+                <p className="text-sm text-gray-400">Password: <span className="font-mono">123</span></p>
+                <p className="text-sm mt-1 text-gray-400 italic">* Use student2@example.com, student3@example.com... for more</p>
             </div>
         </div>
 
