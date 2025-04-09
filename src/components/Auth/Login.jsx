@@ -57,6 +57,7 @@ const Login = ({handleLogin})=>{
             </div>
 
             <div>
+            <p className="font-medium text-sm ">👩‍🏫 Students</p>
             <div className="text-sm space-y-1 text-gray-600">
                 <p>📧 <strong>Rahul Verma</strong> — student1@example.com | 🔐 123</p>
                 <p>📧 <strong>Sneha Patel</strong> — student2@example.com | 🔐 123</p>
