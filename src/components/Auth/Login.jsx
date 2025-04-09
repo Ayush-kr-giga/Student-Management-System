@@ -57,10 +57,13 @@ const Login = ({handleLogin})=>{
             </div>
 
             <div>
-                <p className="font-medium text-sm ">👩‍🎓 Students</p>
-                <p className="text-sm text-gray-400">Email: <span className="font-mono">student1@example.com</span></p>
-                <p className="text-sm text-gray-400">Password: <span className="font-mono">123</span></p>
-                <p className="text-sm mt-1 text-gray-400 italic">* Use student2@example.com, student3@example.com... for more</p>
+            <div className="text-sm space-y-1 text-gray-600">
+                <p>📧 <strong>Rahul Verma</strong> — student1@example.com | 🔐 123</p>
+                <p>📧 <strong>Sneha Patel</strong> — student2@example.com | 🔐 123</p>
+                <p>📧 <strong>Aman Reddy</strong> — student3@example.com | 🔐 123</p>
+                <p>📧 <strong>Priya Singh</strong> — student4@example.com | 🔐 123</p>
+                <p>📧 <strong>Vikram Mehta</strong> — student5@example.com | 🔐 123</p>
+            </div>
             </div>
         </div>
 
